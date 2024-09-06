@@ -1,0 +1,238 @@
+{
+  "meals": [
+    {
+      "name": "Grilled Salmon",
+      "description": "Freshly grilled salmon with a lemon butter sauce.",
+      "category": "Seafood",
+      "price": 240
+    },
+    {
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with fresh tomatoes, mozzarella, and basil.",
+      "category": "Pizza",
+      "price": 150
+    },
+    {
+      "name": "Beef Stroganoff",
+      "description": "Tender beef strips cooked in a creamy mushroom sauce.",
+      "category": "Main Course",
+      "price": 210
+    },
+    {
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.",
+      "category": "Salad",
+      "price": 110
+    },
+    {
+      "name": "Vegetarian Sushi Platter",
+      "description": "An assortment of fresh vegetable sushi rolls.",
+      "category": "Sushi",
+      "price": 180
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "description": "Spiced chicken in a rich tomato-based curry sauce.",
+      "category": "Indian",
+      "price": 190
+    },
+    {
+      "name": "Lamb Rogan Josh",
+      "description": "Slow-cooked lamb in a flavorful curry sauce.",
+      "category": "Indian",
+      "price": 220
+    },
+    {
+      "name": "Spaghetti Carbonara",
+      "description": "Pasta with pancetta, egg, and parmesan cheese.",
+      "category": "Pasta",
+      "price": 160
+    },
+    {
+      "name": "French Onion Soup",
+      "description": "Rich beef broth with caramelized onions and melted cheese.",
+      "category": "Soup",
+      "price": 100
+    },
+    {
+      "name": "Veggie Burger",
+      "description": "A plant-based patty with lettuce, tomato, and vegan mayo.",
+      "category": "Burger",
+      "price": 130
+    },
+    {
+      "name": "Pulled Pork Sandwich",
+      "description": "Slow-cooked pork with barbecue sauce on a toasted bun.",
+      "category": "Sandwich",
+      "price": 140
+    },
+    {
+      "name": "Greek Salad",
+      "description": "Salad with feta cheese, olives, cucumber, and tomatoes.",
+      "category": "Salad",
+      "price": 120
+    },
+    {
+      "name": "Tuna Nigiri",
+      "description": "Slices of fresh tuna over sushi rice.",
+      "category": "Sushi",
+      "price": 70
+    },
+    {
+      "name": "Quinoa Bowl",
+      "description": "Quinoa with roasted vegetables and tahini dressing.",
+      "category": "Healthy",
+      "price": 150
+    },
+    {
+      "name": "Chicken Caesar Wrap",
+      "description": "Grilled chicken, lettuce, and Caesar dressing in a wrap.",
+      "category": "Wrap",
+      "price": 125
+    },
+    {
+      "name": "Miso Soup",
+      "description": "Traditional Japanese soup with tofu, seaweed, and miso broth.",
+      "category": "Soup",
+      "price": 60
+    },
+    {
+      "name": "Beef Burrito",
+      "description": "Flour tortilla filled with spiced beef, rice, beans, and cheese.",
+      "category": "Mexican",
+      "price": 140
+    },
+    {
+      "name": "Pad Thai",
+      "description": "Thai stir-fried noodles with shrimp, peanuts, and lime.",
+      "category": "Asian",
+      "price": 170
+    },
+    {
+      "name": "Caprese Salad",
+      "description": "Tomato, mozzarella, and basil with olive oil.",
+      "category": "Salad",
+      "price": 130
+    },
+    {
+      "name": "Falafel Wrap",
+      "description": "Falafel balls, hummus, and vegetables in a flatbread wrap.",
+      "category": "Wrap",
+      "price": 110
+    },
+    {
+      "name": "Clam Chowder",
+      "description": "Creamy soup with clams, potatoes, and celery.",
+      "category": "Soup",
+      "price": 120
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "description": "Pizza topped with spicy pepperoni slices and mozzarella.",
+      "category": "Pizza",
+      "price": 160
+    },
+    {
+      "name": "Grilled Chicken Skewers",
+      "description": "Marinated chicken skewers served with tzatziki.",
+      "category": "Appetizer",
+      "price": 140
+    },
+    {
+      "name": "Lasagna",
+      "description": "Layers of pasta, beef ragu, and béchamel sauce.",
+      "category": "Pasta",
+      "price": 180
+    },
+    {
+      "name": "Fish and Chips",
+      "description": "Battered and fried fish served with fries and tartar sauce.",
+      "category": "Seafood",
+      "price": 190
+    },
+    {
+      "name": "Chicken Quesadilla",
+      "description": "Grilled tortilla filled with chicken, cheese, and salsa.",
+      "category": "Mexican",
+      "price": 130
+    },
+    {
+      "name": "Vegetable Stir-Fry",
+      "description": "Mixed vegetables stir-fried in a savory soy sauce.",
+      "category": "Asian",
+      "price": 120
+    },
+    {
+      "name": "Eggplant Parmesan",
+      "description": "Baked eggplant slices layered with marinara and mozzarella.",
+      "category": "Vegetarian",
+      "price": 160
+    },
+    {
+      "name": "Tom Yum Soup",
+      "description": "Spicy Thai soup with shrimp, mushrooms, and lemongrass.",
+      "category": "Soup",
+      "price": 90
+    },
+    {
+      "name": "Ramen",
+      "description": "Japanese noodle soup with pork, egg, and vegetables.",
+      "category": "Asian",
+      "price": 150
+    },
+    {
+      "name": "Pesto Pasta",
+      "description": "Pasta tossed in a basil pesto sauce with pine nuts.",
+      "category": "Pasta",
+      "price": 140
+    },
+    {
+      "name": "BBQ Chicken Wings",
+      "description": "Chicken wings coated in a smoky barbecue sauce.",
+      "category": "Appetizer",
+      "price": 110
+    },
+    {
+      "name": "Steak Frites",
+      "description": "Grilled steak served with French fries and herb butter.",
+      "category": "Main Course",
+      "price": 250
+    },
+    {
+      "name": "Shrimp Tacos",
+      "description": "Soft tacos filled with grilled shrimp, avocado, and salsa.",
+      "category": "Mexican",
+      "price": 160
+    },
+    {
+      "name": "Marinated Olives",
+      "description": "Assorted olives marinated in herbs and olive oil.",
+      "category": "Appetizer",
+      "price": 80
+    },
+    {
+      "name": "Cheeseburger",
+      "description": "Grilled beef patty with cheddar cheese, lettuce, and tomato.",
+      "category": "Burger",
+      "price": 140
+    },
+    {
+      "name": "Vegetable Tempura",
+      "description": "Crispy battered vegetables served with dipping sauce.",
+      "category": "Appetizer",
+      "price": 130
+    },
+    {
+      "name": "Blueberry Pancakes",
+      "description": "Fluffy pancakes with fresh blueberries and maple syrup.",
+      "category": "Breakfast",
+      "price": 100
+    },
+    {
+      "name": "Stuffed Bell Peppers",
+      "description": "Bell peppers filled with rice, meat, and tomato sauce.",
+      "category": "Main Course",
+      "price": 170
+    }
+  ]
+}

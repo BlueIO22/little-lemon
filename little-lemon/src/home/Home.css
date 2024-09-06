@@ -1,0 +1,118 @@
+#home-banner {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 60dvh; 
+}
+
+#home-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+#home-banner header {
+    padding: 2rem;
+    border-radius: 16px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 15%;  
+}
+
+#home-banner h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+#home-banner p {
+    font-size: 32px;
+} 
+
+/* Discount Banner */
+
+#discount-banner {
+    display: flex;
+    width: 80%;
+    margin:auto;
+    height: 400px;    
+    margin-top: 5rem;
+    position: relative;
+}
+
+#discount-banner article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    width: 60%;
+    top: 25%;
+    left: 10%;
+    z-index: 2;
+    color: white;
+    padding: 1rem;
+}
+
+#discount-banner h3 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#discount-banner p {
+    font-size: 36px;
+}
+
+#discount-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+#map {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#map iframe {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    #home-banner header {
+        left: 5%;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: auto;
+    }
+
+    #home-banner h1 {
+        font-size: 40px;
+    }
+
+    #home-banner p {
+        font-size: 24px;
+    }
+
+    #discount-banner {
+        width: 100%;
+    }
+
+    #discount-banner article { 
+        padding: 0px;
+    }
+
+    #discount-banner h3 {
+        font-size: 32px;
+    }
+    #discount-banner p {
+        font-size: 18px;
+    }
+}
