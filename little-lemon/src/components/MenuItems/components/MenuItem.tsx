@@ -27,17 +27,10 @@ export default function MenuItem({ meal }: { meal: Meal }) {
       <section id="menu-item-content">
         <h3>{meal.name}</h3>
         <p>{meal.description}</p>
-        <article id="price">
-          <p
-            style={{
-              textDecoration: "line-through",
-            }}
-          >
-            {meal.price},- NOK
-          </p>
-          <p>{meal.price},- NOK</p>
-        </article>
       </section>
+      <article id="price">
+        <p>{meal.price},- NOK</p>
+      </article>
     </section>
   );
 }

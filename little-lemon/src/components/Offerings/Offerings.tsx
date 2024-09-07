@@ -1,3 +1,4 @@
+import OpeningHours from "../OpeningHours";
 import Offering from "./components/Offering";
 import "./Offerings.css";
 
@@ -10,7 +11,12 @@ export default function Offerings() {
           <Offering
             id="table-reservation"
             title="Reserve a table for our restaurant"
-            description="A night out? Or family visiting? Reserve a table now for a nice evening with rich food flavors"
+            description={
+              <p>
+                A night out? Or family visiting? Reserve a table now for a nice
+                evening with rich food flavors
+              </p>
+            }
             buttonText="Reserve a table"
             url="/booking"
             imageAlt="Mario and Adrian talks together in the kitchen"
@@ -19,7 +25,12 @@ export default function Offerings() {
           <Offering
             id="discount-member"
             title="Enjoy discounts in our membership program!"
-            description="By becomming a little lemmonie. You will get discounts and special offers on all evening nights"
+            description={
+              <p>
+                By becomming a little lemmonie. You will get discounts and
+                special offers on all evening nights
+              </p>
+            }
             buttonText="Become a lemonie!"
             url="/contact"
             imageAlt="Mario prepares a lovely dish"
@@ -28,17 +39,7 @@ export default function Offerings() {
           <Offering
             id="opening-hours"
             title="Opening Hours"
-            description={
-              <ul>
-                <li>Monday: 09-23</li>
-                <li>Tuesday: 09-23</li>
-                <li>Wednesday: Closed</li>
-                <li>Thursday: 09-23</li>
-                <li>Friday: 09-02</li>
-                <li>Saturday: 09-02</li>
-                <li>Sunday: Closed</li>
-              </ul>
-            }
+            description={<OpeningHours />}
             imageAlt="Mario and Adrian prepares food together"
             imageUrl="/little-lemon-icons/Mario and Adrian b.jpg"
             hideButton

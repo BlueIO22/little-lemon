@@ -25,12 +25,8 @@ export default function MobileMenu({
           <ul>
             {links.map((link: Link) => {
               return (
-                <li>
-                  <a
-                    data-active={activeLink === link.url}
-                    key={link.url}
-                    href={link.url}
-                  >
+                <li key={link.url}>
+                  <a data-active={activeLink === link.url} href={link.url}>
                     {link.title}
                   </a>
                 </li>

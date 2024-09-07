@@ -9,12 +9,13 @@ ul {
     grid-template-columns: repeat(2, 1fr);
 }
 #menu-item {
-    height: 400px;
+    height: 100%;
     background-color: var(--primary-color);
 }
 
 #menu-item-content {
     display: grid;
+    height: 100px;
     grid-template-columns: 2fr;
     gap: 1rem;
     padding: .5rem;
@@ -39,9 +40,9 @@ ul {
     color: white;
 }
 
-
 #price {
     display: flex;
+    justify-content: center;
     align-items: end;
 }
 

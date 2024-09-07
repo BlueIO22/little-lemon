@@ -1,5 +1,3 @@
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Badge.css";
 
 export default function Badge({
@@ -26,7 +24,8 @@ export default function Badge({
       }}
     >
       <p>
-        {selected && <FontAwesomeIcon icon={faCheck} />} {title}
+        {/* {selected && <FontAwesomeIcon icon={faCheck} />} */}
+        {title}
       </p>
     </article>
   );

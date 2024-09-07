@@ -1,3 +1,4 @@
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Dispatch, useEffect, useState } from "react";
 import { meals } from "../../../data/meals";
 import Badge from "../../Badge/Badge";

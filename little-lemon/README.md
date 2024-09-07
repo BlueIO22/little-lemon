@@ -11,3 +11,8 @@ You demonstrated your web development skills by writing code to create a form th
 - [x] Create a react app
 - [X] add react-router
 - [x] Create a home page
+
+## Running application
+```npm install```
+
+```npm run dev```
