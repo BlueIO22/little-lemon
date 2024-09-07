@@ -18,8 +18,8 @@
     background-color: white;
     position: absolute;
     z-index: 1;
-    top: 10%;
-    left: 15%;  
+    top: 20%;
+    left: 25%;  
 }
 
 #home-banner h1 {
@@ -83,6 +83,13 @@
     width: 100%;
 }
 
+#menu-items ul {
+    display: grid;
+    gap: 0.5rem;    
+    max-height: 840px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 @media screen and (max-width: 800px) {
     #home-banner header {
         left: 5%;
@@ -112,6 +119,12 @@
     #discount-banner h3 {
         font-size: 32px;
     }
+
+    #menu-items ul {
+        grid-template-columns: 1fr;
+        margin-bottom: 1rem;
+    }
+
     #discount-banner p {
         font-size: 18px;
     }

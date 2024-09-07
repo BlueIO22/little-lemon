@@ -1,4 +1,4 @@
-export const meals = [
+export const meals = [  
   {
     name: "Grilled Salmon",
     description: "Freshly grilled salmon with a lemon butter sauce.",

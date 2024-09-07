@@ -1,6 +1,5 @@
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { Dispatch, useEffect, useState } from "react";
-import { meals } from "../../../data/meals";
+import { Dispatch } from "react";
 import Badge from "../../Badge/Badge";
 
 export default function DeliveryFilter({
@@ -10,15 +9,14 @@ export default function DeliveryFilter({
   selectedBadges: string[];
   setSelectedBadges: Dispatch<string[]>;
 }) {
-  const [filterOptions, setFilterOptions] = useState<string[]>([]);
-  useEffect(() => {
-    const filterOptions = [
-      ...new Set(meals.map((x) => x.category).splice(0, 10)),
-    ];
-
-    setFilterOptions(filterOptions);
-  }, []);
-
+  const filterOptions = [
+    "Burger",
+    "Seafood",
+    "Mexican",
+    "Vegetarian",
+    "Pasta",
+    "Pizza",
+  ];
   return (
     <section id="delivery-filter">
       {filterOptions.map((option: string) => {

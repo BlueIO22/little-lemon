@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { meals } from "../../data/meals";
 import MenuItem from "./components/MenuItem";
+import { meals } from "./meals";
 import "./MenuItems.css";
 import { Meal } from "./types";
 
@@ -8,21 +8,20 @@ function filterMealsByCategory(
   categories: string[] | undefined,
   preview: boolean | undefined
 ) {
+  const filterMeals = [...meals];
   if (!categories || categories.length <= 0) {
-    return [meals[0], meals[1], meals[2], meals[3]];
+    if (!preview) {
+      return [...filterMeals.splice(0, 20)];
+    }
+    return [filterMeals[0], filterMeals[1], filterMeals[2], filterMeals[3]];
   }
 
-  const foundMeals = meals.filter((meal: Meal) => {
-    const found = categories.find(
-      (x) => x.toLowerCase() === meal.category.toLowerCase()
-    );
-    return found !== undefined;
-  });
-
-  console.log(foundMeals);
+  const foundMeals = filterMeals.filter((meal: Meal) =>
+    categories.includes(meal.category)
+  );
 
   if (preview) {
-    return foundMeals.splice(0, 4);
+    return [...foundMeals.splice(0, 4)];
   }
 
   return foundMeals;

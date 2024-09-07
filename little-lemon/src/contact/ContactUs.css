@@ -1,0 +1,19 @@
+#contact-us-banner {
+    height: 60dvh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-us-banner h1 {
+    color: var(--secondary-color);
+    font-size: 64px;
+    font-weight: bold;
+}
+
+#contact-us-banner p {
+    color: white; 
+    font-size: 40px;
+}

@@ -12,6 +12,8 @@
 #badge p {
     font-size: 16px;
     font-weight: bold;
+    display: flex;
+    gap: .5rem;
 }
 
 #badge:hover {
