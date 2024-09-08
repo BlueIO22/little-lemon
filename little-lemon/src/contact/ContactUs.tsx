@@ -1,3 +1,4 @@
+import ContactForm from "../components/ContactForm/ContactForm";
 import "./ContactUs.css";
 
 export default function ContactUs() {
@@ -9,7 +10,9 @@ export default function ContactUs() {
           <p>Please feel free to contact us</p>
         </article>
       </section>
-      <section id="contact-form">{/* <ContactForm {...props} />*/}</section>
+      <section id="contact-form-container">
+        <ContactForm />
+      </section>
     </section>
   );
 }

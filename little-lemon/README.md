@@ -13,6 +13,12 @@ You demonstrated your web development skills by writing code to create a form th
 - [x] Create a home page
 
 ## Running application
+
+Install packages
 ```npm install```
 
+Run in development mode with HMR(hot module reload)
 ```npm run dev```
+
+Build application
+```npm run build```

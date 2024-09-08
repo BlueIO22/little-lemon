@@ -1,0 +1,105 @@
+#contact-form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+
+
+#contact-form input, textarea {
+    padding: 1rem; 
+    font-size: 18px;
+    width: 100%;
+    border-radius: 16px;
+    border-width: 1px;
+}
+
+#contact-form p {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#errors ul {
+    display: flex;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    color: white;
+    padding: 2rem;
+    transition: all 1s linear;
+    list-style-type: disc;
+}
+
+#errors ul li {
+    margin-left: 1rem;
+    font-size: 24px;
+}
+
+#actions {
+    display: flex;
+    justify-content: end;
+}
+
+#success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 100%;
+    position: absolute;
+    animation: fade-in 1s linear;
+}
+
+#success h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+#success p {
+    font-size: 24px;
+    color: white;
+    margin-top: 1rem;
+}
+
+#exists {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#notice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#notice h2 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+#notice p {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 800px) {
+    #contact-form {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #actions {
+        flex-direction: column;
+        gap: 1rem
+    }
+
+}
